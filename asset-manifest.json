@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/discord-bot-chat/static/css/main.aab2be05.css",
-    "main.js": "/discord-bot-chat/static/js/main.401b9a63.js",
-    "static/js/787.2aafa78f.chunk.js": "/discord-bot-chat/static/js/787.2aafa78f.chunk.js",
-    "index.html": "/discord-bot-chat/index.html",
-    "main.aab2be05.css.map": "/discord-bot-chat/static/css/main.aab2be05.css.map",
-    "main.401b9a63.js.map": "/discord-bot-chat/static/js/main.401b9a63.js.map",
-    "787.2aafa78f.chunk.js.map": "/discord-bot-chat/static/js/787.2aafa78f.chunk.js.map"
+    "main.css": "/discord-chat-bot/static/css/main.aab2be05.css",
+    "main.js": "/discord-chat-bot/static/js/main.797795f6.js",
+    "static/js/787.2aafa78f.chunk.js": "/discord-chat-bot/static/js/787.2aafa78f.chunk.js",
+    "index.html": "/discord-chat-bot/index.html",
+    "main.aab2be05.css.map": "/discord-chat-bot/static/css/main.aab2be05.css.map",
+    "main.797795f6.js.map": "/discord-chat-bot/static/js/main.797795f6.js.map",
+    "787.2aafa78f.chunk.js.map": "/discord-chat-bot/static/js/787.2aafa78f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aab2be05.css",
-    "static/js/main.401b9a63.js"
+    "static/js/main.797795f6.js"
   ]
 }
