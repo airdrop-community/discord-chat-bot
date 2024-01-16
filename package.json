@@ -2,7 +2,7 @@
   "name": "discord-bot-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://quockhanhnguyentruong.github.io/discord-bot-chat/",
+  "homepage": "https://airdrop-community.github.io/discord-chat-bot/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
