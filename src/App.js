@@ -76,7 +76,7 @@ function App() {
   
     const id = setInterval(() => {
       makeAPICall();
-    }, timeInterval * 60 * 1000);
+    }, timeInterval * 1000);
     
     window.alert('Sending Message')
     setIntervalId(id);
@@ -109,7 +109,7 @@ function App() {
           />
         </label>
         <label>
-          Set Time Interval (minutes):
+          Set Time Interval (seconds):
           <input
             type="number"
             value={timeInterval}
