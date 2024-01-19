@@ -37,7 +37,11 @@ function App() {
     if (intervalId) {
       return () => clearInterval(intervalId);
     }
-  }, [intervalId]);
+
+    if(contentListType === 'preset'){
+      setPresetContentList(presetContentLists.join('\n'))
+    }
+  }, [intervalId, contentListType]);
 
   const makeAPICall = async () => {
     if (!contentList.length && !presetContentList.length) {
@@ -84,9 +88,6 @@ function App() {
 
   const handleContentListTypeChange = (e) => {
     setContentListType(e.target.value);
-    if(contentListType === 'preset'){
-      setPresetContentList(presetContentLists.join('\n'))
-    }
   };
 
   const handleCustomContentListChange = (e) => {
