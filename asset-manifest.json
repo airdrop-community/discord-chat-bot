@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/discord-chat-bot/static/css/main.aab2be05.css",
-    "main.js": "/discord-chat-bot/static/js/main.adfb30bf.js",
+    "main.js": "/discord-chat-bot/static/js/main.d60e4ea3.js",
     "static/js/787.2aafa78f.chunk.js": "/discord-chat-bot/static/js/787.2aafa78f.chunk.js",
     "index.html": "/discord-chat-bot/index.html",
     "main.aab2be05.css.map": "/discord-chat-bot/static/css/main.aab2be05.css.map",
-    "main.adfb30bf.js.map": "/discord-chat-bot/static/js/main.adfb30bf.js.map",
+    "main.d60e4ea3.js.map": "/discord-chat-bot/static/js/main.d60e4ea3.js.map",
     "787.2aafa78f.chunk.js.map": "/discord-chat-bot/static/js/787.2aafa78f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aab2be05.css",
-    "static/js/main.adfb30bf.js"
+    "static/js/main.d60e4ea3.js"
   ]
 }
