@@ -100,23 +100,27 @@ function App() {
 
   const handleTimeIntervalChange = (e) => {
     const inputValue = e.target.value;
-    const decimalValue = parseFloat(inputValue).replace(',','.');
-  
-    if (!isNaN(decimalValue) && decimalValue > 0) {
-      setTimeInterval(decimalValue);
+
+    if (!isNaN(inputValue)) {
+      setTimeInterval(inputValue);
     } else {
       console.error('Invalid time interval input. Please enter a positive number.');
     }
   };
 
   const submit = () => {
+    console.log(timeInterval);
+    if(timeInterval < 0 || !timeInterval) {
+      window.alert('Time must be > 0')
+      return;
+    }
     makeAPICall();
   
     const id = setInterval(() => {
       makeAPICall();
     }, timeInterval * 1000);
     
-    // window.alert('Sending Message')
+    window.alert('Sending Message')
     setIntervalId(id);
   };
 
